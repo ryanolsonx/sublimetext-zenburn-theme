@@ -16,6 +16,7 @@
 [X] OCaml
 [X] Haskell
 [X] F#
+[X] C#
 [ ] Go
 [ ] Rust
 [ ] C#

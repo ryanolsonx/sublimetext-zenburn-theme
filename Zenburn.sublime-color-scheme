@@ -125,7 +125,7 @@
         },
         {
             "name": "Function",
-            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js, support.function.classobj.php, storage.type.function.php, meta.function-call.php support.function",
+            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js, support.function.classobj.php, storage.type.function.php, meta.function-call.php support.function, entity.name.function.cs",
             "foreground": "var(khaki)"
         },
 
@@ -160,12 +160,12 @@
         },
         {
             "name": "Statement",
-            "scope": "entity.name.tag, punctuation.definition.list_item, source.shell.bash support.function, keyword.control.flow.return.js, keyword.declaration.function.python, keyword.control.flow.assert.python - (keyword.control.import-export)", // keyword.control
+            "scope": "entity.name.tag, punctuation.definition.list_item, source.shell.bash support.function, keyword.control.flow.return.js, keyword.declaration.function.python, keyword.control.flow.assert.python, keyword.operator.new.cs - (keyword.control.import-export)", // keyword.control
             "foreground": "var(hampton)"
         },
         {
             "name": "Exception",
-            "scope": "keyword.control.exception.try, keyword.control.exception.catch, text.html.basic entity.name.tag.script",
+            "scope": "keyword.control.exception.try, keyword.control.exception.catch, text.html.basic entity.name.tag.script, source.cs keyword.control.trycatch",
             "foreground": "var(reef)",
             "font_style": "bold"
         },
@@ -177,7 +177,7 @@
         },
         {
             "name": "Include",
-            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass punctuation.definition.keyword.sass, keyword.control.import-export.js, keyword.control.import.python, keyword.control.import.from.python, keyword.other.use.php, meta.module-reference.ocaml, support.other.module.ocaml, entity.name.type.module.ocaml, keyword.control.import.haskell, namespace.open.fsharp keyword.fsharp, source.fsharp keyword.control.directive.fsharp",
+            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass punctuation.definition.keyword.sass, keyword.control.import-export.js, keyword.control.import.python, keyword.control.import.from.python, keyword.other.use.php, meta.module-reference.ocaml, support.other.module.ocaml, entity.name.type.module.ocaml, keyword.control.import.haskell, namespace.open.fsharp keyword.fsharp, source.fsharp keyword.control.directive.fsharp, source.cs keyword.control.import.cs",
             "foreground": "var(calico)",
             "font_style": "bold"
         },
