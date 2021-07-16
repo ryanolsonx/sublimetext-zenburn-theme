@@ -3,7 +3,6 @@
 ## Language Support
 
 [X] JavaScript
-	TODO Imports use Include
 [X] JSX
 [X] Markdown
 [X] SCSS

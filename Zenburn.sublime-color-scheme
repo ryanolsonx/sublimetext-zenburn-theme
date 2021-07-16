@@ -177,7 +177,7 @@
         },
         {
             "name": "Include",
-            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass punctuation.definition.keyword.sass",
+            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass punctuation.definition.keyword.sass, keyword.control.import-export.js",
             "foreground": "var(calico)",
             "font_style": "bold"
         },
