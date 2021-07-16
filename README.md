@@ -18,7 +18,7 @@
 [X] F#
 [X] C#
 [X] Go
-[ ] Rust
+[X] Rust
 [ ] C#
 [ ] Clojure
 [ ] Elm
