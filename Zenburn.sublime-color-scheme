@@ -120,12 +120,12 @@
         
         {
             "name": "Identifier",
-            "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable, source.css variable.declaration, source.css punctuation.definition.variable",
+            "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable, source.css variable.declaration, source.css punctuation.definition.variable, support.class.js, keyword.operator.word.new.js",
             "foreground": "var(champagne)"
         },
         {
             "name": "Function",
-            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python",
+            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js",
             "foreground": "var(khaki)"
         },
 
@@ -212,7 +212,7 @@
         },
         {
             "name": "Structure",
-            "scope": "keyword.declaration.enum, keyword.declaration.struct, keyword.declaration.union",
+            "scope": "keyword.declaration.enum, keyword.declaration.struct, keyword.declaration.union, variable.language.this.js",
             "foreground": "var(goldenrod)",
             "font_style": "bold"
         },

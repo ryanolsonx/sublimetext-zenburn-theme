@@ -11,7 +11,7 @@
 [X] HTML
 [ ] C++
 [X] Python
-[ ] TypeScript
+[X] TypeScript
 [ ] PHP
 [ ] OCaml
 [ ] Haskell
