@@ -9,7 +9,7 @@
 [X] CSS
 [X] C
 [X] HTML
-[ ] C++
+[X] C++
 [X] Python
 [X] TypeScript
 [ ] PHP
