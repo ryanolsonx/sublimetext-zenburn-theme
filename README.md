@@ -12,7 +12,7 @@
 [X] C++
 [X] Python
 [X] TypeScript
-[ ] PHP
+[X] PHP
 [ ] OCaml
 [ ] Haskell
 [ ] F#
