@@ -23,7 +23,7 @@
 [X] Elm
 [X] Elixir
 [X] JSON
-[ ] Java
+[X] Java
 
 X = Full support
 ~ = Mostly supported
