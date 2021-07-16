@@ -269,7 +269,7 @@
         },
         {
             "name": "markup underline",
-            "scope": "markup.underline, meta.link.inline.description.markdown",
+            "scope": "meta.link.inline.description.markdown",
             "font_style": "underline"
         },
         {

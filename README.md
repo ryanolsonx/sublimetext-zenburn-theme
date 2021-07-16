@@ -4,7 +4,7 @@
 
 [X] JavaScript
 [X] JSX
-[~] Markdown
+[X] Markdown
 [~] SCSS
 [ ] CSS
 [X] C
