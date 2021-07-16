@@ -14,7 +14,7 @@
 [X] TypeScript
 [X] PHP
 [X] OCaml
-[ ] Haskell
+[X] Haskell
 [ ] F#
 [ ] Go
 [ ] Rust
