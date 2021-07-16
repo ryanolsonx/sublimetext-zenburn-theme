@@ -20,7 +20,7 @@
 [X] Go
 [X] Rust
 [X] Clojure
-[ ] Elm
+[X] Elm
 [ ] Elixir
 [ ] Java
 
