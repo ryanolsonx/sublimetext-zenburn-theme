@@ -10,7 +10,7 @@
 [X] C
 [X] HTML
 [ ] C++
-[ ] Python
+[X] Python
 [ ] TypeScript
 [ ] PHP
 [ ] OCaml
