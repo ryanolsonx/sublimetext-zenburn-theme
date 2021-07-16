@@ -17,7 +17,7 @@
 [X] Haskell
 [X] F#
 [X] C#
-[ ] Go
+[X] Go
 [ ] Rust
 [ ] C#
 [ ] Clojure
