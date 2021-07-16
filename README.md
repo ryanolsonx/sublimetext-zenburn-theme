@@ -2,7 +2,7 @@
 
 ## Language Support
 
-[~] JavaScript
+[X] JavaScript
 [~] JSX
 [~] Markdown
 [X] C
