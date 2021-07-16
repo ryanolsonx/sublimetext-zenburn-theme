@@ -165,7 +165,7 @@
         },
         {
             "name": "Exception",
-            "scope": "keyword.control.exception.try, keyword.control.exception.catch",
+            "scope": "keyword.control.exception.try, keyword.control.exception.catch, text.html.basic entity.name.tag.script",
             "foreground": "var(reef)",
             "font_style": "bold"
         },
@@ -218,7 +218,7 @@
         },
         {
             "name": "Special",
-            "scope": "constant.character.escape, punctuation.section.interpolation, source.scss keyword.other.important, source.scss support.type",
+            "scope": "constant.character.escape, punctuation.section.interpolation, source.scss keyword.other.important, source.scss support.type, text.html.basic punctuation.definition.entity.html, text.html.basic constant.character.entity.named, text.html.basic punctuation.terminator.entity.html",
             "foreground": "var(stark)"
         },
         {
