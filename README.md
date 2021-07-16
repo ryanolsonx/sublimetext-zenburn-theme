@@ -15,7 +15,7 @@
 [X] PHP
 [X] OCaml
 [X] Haskell
-[ ] F#
+[X] F#
 [ ] Go
 [ ] Rust
 [ ] C#

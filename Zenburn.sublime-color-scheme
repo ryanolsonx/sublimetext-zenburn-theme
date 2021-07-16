@@ -120,7 +120,7 @@
         
         {
             "name": "Identifier",
-            "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable, source.css variable.declaration, source.css punctuation.definition.variable, support.class.js, keyword.operator.word.new.js, variable.other.php, variable.parameter.php, variable.language.php, meta.function.type-declaration.haskell entity.name.function.haskell, source.haskell meta.name.haskell",
+            "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable, source.css variable.declaration, source.css punctuation.definition.variable, support.class.js, keyword.operator.word.new.js, variable.other.php, variable.parameter.php, variable.language.php, meta.function.type-declaration.haskell entity.name.function.haskell, source.haskell meta.name.haskell, entity.name.type.fsharp",
             "foreground": "var(champagne)"
         },
         {
@@ -177,7 +177,7 @@
         },
         {
             "name": "Include",
-            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass punctuation.definition.keyword.sass, keyword.control.import-export.js, keyword.control.import.python, keyword.control.import.from.python, keyword.other.use.php, meta.module-reference.ocaml, support.other.module.ocaml, entity.name.type.module.ocaml, keyword.control.import.haskell",
+            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass punctuation.definition.keyword.sass, keyword.control.import-export.js, keyword.control.import.python, keyword.control.import.from.python, keyword.other.use.php, meta.module-reference.ocaml, support.other.module.ocaml, entity.name.type.module.ocaml, keyword.control.import.haskell, namespace.open.fsharp keyword.fsharp, source.fsharp keyword.control.directive.fsharp",
             "foreground": "var(calico)",
             "font_style": "bold"
         },
@@ -200,13 +200,13 @@
         },
         {
             "name": "Type",
-            "scope": "support.type, entity.other.attribute-name, storage.type, support.class.builtin, source.scss entity.other, constant.other.haskell, source.haskell meta.import.haskell support.other.module.haskell, source.haskell meta.declaration.module.haskell entity.name.namespace.haskell",
+            "scope": "support.type, entity.other.attribute-name, storage.type, support.class.builtin, source.scss entity.other, constant.other.haskell, source.haskell meta.import.haskell support.other.module.haskell, source.haskell meta.declaration.module.haskell entity.name.namespace.haskell, abstract.definition.fsharp entity.name.type.fsharp",
             "foreground": "var(tan)",
             "font_style": "bold"
         },
         {
             "name": "StorageClass",
-            "scope": "storage.modifier, support.type.property-name",
+            "scope": "storage.modifier, support.type.property-name, abstract.definition.fsharp keyword.fsharp",
             "foreground": "var(reef)",
             "font_style": "bold"
         },
