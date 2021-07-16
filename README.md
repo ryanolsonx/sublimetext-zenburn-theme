@@ -6,7 +6,7 @@
 [X] JSX
 [X] Markdown
 [X] SCSS
-[ ] CSS
+[X] CSS
 [X] C
 [X] HTML
 [ ] C++

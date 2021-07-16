@@ -97,13 +97,13 @@
         },
         {
             "name": "Character",
-            "scope": "constant.character, source.scss keyword.operator.ampersand",
+            "scope": "constant.character, source.scss keyword.operator.ampersand, source.css keyword.operator.ampersand",
             "foreground": "var(pale_chestnut)",
             "font_style": "bold"
         },
         {
             "name": "Number",
-            "scope": "constant.numeric, storage.type.numeric, source.scss keyword.other.unit",
+            "scope": "constant.numeric, storage.type.numeric, source.scss keyword.other.unit, source.css keyword.other.unit",
             "foreground": "var(monte_carlo)"
         },
         {
@@ -120,12 +120,12 @@
         
         {
             "name": "Identifier",
-            "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable",
+            "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable, source.css variable.declaration, source.css punctuation.definition.variable",
             "foreground": "var(champagne)"
         },
         {
             "name": "Function",
-            "scope": "keyword.declaration.function, source.scss support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++",
+            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++",
             "foreground": "var(khaki)"
         },
 
@@ -172,12 +172,12 @@
 
         {
             "name": "PreProc",
-            "scope": "source.scss entity.other.pseudo-class, source.shell.bash punctuation.definition.variable, source.shell.bash variable.other.readwrite, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, entity.other.pseudo-element.css",
+            "scope": "source.scss entity.other.pseudo-class, source.shell.bash punctuation.definition.variable, source.shell.bash variable.other.readwrite, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, entity.other.pseudo-class.css, entity.other.pseudo-element.css, keyword.control.directive.css punctuation.definition.keyword.css, keyword.control.directive.css",
             "foreground": "var(peach)"
         },
         {
             "name": "Include",
-            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass punctuation.definition.keyword.sass, keyword.control.import-export.js",
+            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass punctuation.definition.keyword.sass, keyword.control.import-export.js",
             "foreground": "var(calico)",
             "font_style": "bold"
         },
@@ -218,7 +218,7 @@
         },
         {
             "name": "Special",
-            "scope": "constant.character.escape, punctuation.section.interpolation, source.scss keyword.other.important, source.scss support.type, text.html.basic punctuation.definition.entity.html, text.html.basic constant.character.entity.named, text.html.basic punctuation.terminator.entity.html",
+            "scope": "constant.character.escape, punctuation.section.interpolation, source.scss keyword.other.important, source.css keyword.other.important, source.scss support.type, source.css support.type, text.html.basic punctuation.definition.entity.html, text.html.basic constant.character.entity.named, text.html.basic punctuation.terminator.entity.html, entity.other.custom-property.css",
             "foreground": "var(stark)"
         },
         {
