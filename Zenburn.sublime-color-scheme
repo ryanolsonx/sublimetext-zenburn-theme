@@ -125,7 +125,7 @@
         },
         {
             "name": "Function",
-            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js, support.function.classobj.php, storage.type.function.php, meta.function-call.php support.function, entity.name.function.cs, source.rust meta.function.rust entity.name.function.rust, support.function.rust",
+            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js, support.function.classobj.php, storage.type.function.php, meta.function-call.php support.function, entity.name.function.cs, source.rust meta.function.rust entity.name.function.rust, support.function.rust, entity.name.function.clojure",
             "foreground": "var(khaki)"
         },
 
@@ -154,7 +154,7 @@
         },
         {
             "name": "Keyword",
-            "scope": "keyword - (keyword.operator | keyword.operator.word)",
+            "scope": "keyword, constant.other.keyword.clojure - (keyword.operator | keyword.operator.word)",
             "foreground": "var(pale_goldenrod)",
             "font_style": "bold"
         },
@@ -183,7 +183,7 @@
         },
         {
             "name": "Define",
-            "scope": "keyword.control.import.define, meta.preprocessor.macro.c entity.name.constant.preprocessor.c, meta.preprocessor.macro.c++ entity.name.constant.preprocessor.c++",
+            "scope": "keyword.control.import.define, meta.preprocessor.macro.c entity.name.constant.preprocessor.c, meta.preprocessor.macro.c++ entity.name.constant.preprocessor.c++, storage.modifier.def.clojure",
             "foreground": "var(peach)"
         },
         {
@@ -218,7 +218,7 @@
         },
         {
             "name": "Special",
-            "scope": "constant.character.escape, punctuation.section.interpolation, source.scss keyword.other.important, source.css keyword.other.important, source.scss support.type, source.css support.type, text.html.basic punctuation.definition.entity.html, text.html.basic constant.character.entity.named, text.html.basic punctuation.terminator.entity.html, entity.other.custom-property.css",
+            "scope": "constant.character.escape, punctuation.section.interpolation, source.scss keyword.other.important, source.css keyword.other.important, source.scss support.type, source.css support.type, text.html.basic punctuation.definition.entity.html, text.html.basic constant.character.entity.named, text.html.basic punctuation.terminator.entity.html, entity.other.custom-property.css, variable.function.clojure",
             "foreground": "var(stark)"
         },
         {

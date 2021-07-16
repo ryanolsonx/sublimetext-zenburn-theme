@@ -19,10 +19,10 @@
 [X] C#
 [X] Go
 [X] Rust
-[ ] C#
-[ ] Clojure
+[X] Clojure
 [ ] Elm
 [ ] Elixir
+[ ] Java
 
 X = Full support
 ~ = Mostly supported
