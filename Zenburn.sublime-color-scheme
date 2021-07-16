@@ -160,7 +160,7 @@
         },
         {
             "name": "Statement",
-            "scope": "entity.name.tag, punctuation.definition.list_item - (keyword.control.import-export), source.shell.bash support.function", // keyword.control
+            "scope": "entity.name.tag, punctuation.definition.list_item - (keyword.control.import-export), source.shell.bash support.function, keyword.control.flow.return.js", // keyword.control
             "foreground": "var(hampton)"
         },
         {

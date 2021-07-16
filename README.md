@@ -3,8 +3,10 @@
 ## Language Support
 
 [X] JavaScript
-[~] JSX
+[X] JSX
 [~] Markdown
+[~] SCSS
+[ ] CSS
 [X] C
 [X] HTML
 [ ] C++
