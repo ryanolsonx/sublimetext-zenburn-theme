@@ -21,7 +21,8 @@
 [X] Rust
 [X] Clojure
 [X] Elm
-[ ] Elixir
+[X] Elixir
+[X] JSON
 [ ] Java
 
 X = Full support

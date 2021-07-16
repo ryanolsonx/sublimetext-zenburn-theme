@@ -86,7 +86,7 @@
         },
         {
             "name": "Constant",
-            "scope": "constant.language, support.constant, constant.other.color, entity.name.type.variant.ocaml, source.rust variable.language.rust, support.type.rust",
+            "scope": "constant.language, support.constant, constant.other.color, entity.name.type.variant.ocaml, source.rust variable.language.rust, support.type.rust, source.elixir constant.other.symbol.elixir, source.elixir constant.other.symbol.elixir punctuation.definition.constant.elixir, source.elixir variable.language.elixir, source.elixir constant.other.keywords.elixir",
             "foreground": "var(pale_chestnut)",
             "font_style": "bold"
         },
@@ -125,7 +125,7 @@
         },
         {
             "name": "Function",
-            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js, support.function.classobj.php, storage.type.function.php, meta.function-call.php support.function, entity.name.function.cs, source.rust meta.function.rust entity.name.function.rust, support.function.rust, entity.name.function.clojure, entity.name.function.elm",
+            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js, support.function.classobj.php, storage.type.function.php, meta.function-call.php support.function, entity.name.function.cs, source.rust meta.function.rust entity.name.function.rust, support.function.rust, entity.name.function.clojure, entity.name.function.elm, source.elixir meta.function.public.elixir entity.name.function.public.elixir",
             "foreground": "var(khaki)"
         },
 
@@ -144,7 +144,7 @@
         },
         {
             "name": "Label",
-            "scope": "keyword.control.conditional.case, keyword.control.conditional.default",
+            "scope": "keyword.control.conditional.case, keyword.control.conditional.default, source.json meta.mapping.key.json string.quoted.double.json, source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string.begin.json, source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string.end.json",
             "foreground": "var(bone)"
         },
         {
@@ -183,7 +183,7 @@
         },
         {
             "name": "Define",
-            "scope": "keyword.control.import.define, meta.preprocessor.macro.c entity.name.constant.preprocessor.c, meta.preprocessor.macro.c++ entity.name.constant.preprocessor.c++, storage.modifier.def.clojure",
+            "scope": "keyword.control.import.define, meta.preprocessor.macro.c entity.name.constant.preprocessor.c, meta.preprocessor.macro.c++ entity.name.constant.preprocessor.c++, storage.modifier.def.clojure, meta.module.elixir keyword.control.module.elixir",
             "foreground": "var(peach)"
         },
         {
@@ -200,7 +200,7 @@
         },
         {
             "name": "Type",
-            "scope": "support.type, entity.other.attribute-name, storage.type, support.class.builtin, source.scss entity.other, constant.other.haskell, source.haskell meta.import.haskell support.other.module.haskell, source.haskell meta.declaration.module.haskell entity.name.namespace.haskell, abstract.definition.fsharp entity.name.type.fsharp",
+            "scope": "support.type, entity.other.attribute-name, storage.type, support.class.builtin, source.scss entity.other, constant.other.haskell, source.haskell meta.import.haskell support.other.module.haskell, source.haskell meta.declaration.module.haskell entity.name.namespace.haskell, abstract.definition.fsharp entity.name.type.fsharp, source.elixir entity.name.type",
             "foreground": "var(tan)",
             "font_style": "bold"
         },
