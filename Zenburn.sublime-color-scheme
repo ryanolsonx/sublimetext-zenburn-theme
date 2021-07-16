@@ -118,11 +118,11 @@
         },
 
         
-        // {
-        //     "name": "Identifier",
-        //     "scope": "keyword.declaration",
-        //     "foreground": "var(champagne)"
-        // },
+        {
+            "name": "Identifier",
+            "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable",
+            "foreground": "var(champagne)"
+        },
         {
             "name": "Function",
             "scope": "keyword.declaration.function, source.scss support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++",
@@ -138,7 +138,7 @@
         },
         {
             "name": "Repeat",
-            "scope": "keyword.control.loop",
+            "scope": "keyword.control.loop, source.scss keyword.control.flow.sass",
             "foreground": "var(navajo)",
             "font_style": "bold"
         },
@@ -172,12 +172,12 @@
 
         {
             "name": "PreProc",
-            "scope": "source.scss entity.other.pseudo-class, source.shell.bash punctuation.definition.variable, source.shell.bash variable.other.readwrite",
+            "scope": "source.scss entity.other.pseudo-class, source.shell.bash punctuation.definition.variable, source.shell.bash variable.other.readwrite, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, entity.other.pseudo-element.css",
             "foreground": "var(peach)"
         },
         {
             "name": "Include",
-            "scope": "keyword.control.import.include",
+            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass punctuation.definition.keyword.sass",
             "foreground": "var(calico)",
             "font_style": "bold"
         },

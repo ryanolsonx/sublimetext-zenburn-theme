@@ -3,9 +3,10 @@
 ## Language Support
 
 [X] JavaScript
+	TODO Imports use Include
 [X] JSX
 [X] Markdown
-[~] SCSS
+[X] SCSS
 [ ] CSS
 [X] C
 [X] HTML
