@@ -1,52 +1,37 @@
-# Zenburn
+# ZENBURN FOR SUBLIME TEXT
 
-## Language Support
+Zenburn is a low-contrast color scheme for Sublime Text. It’s easy for your eyes and designed to keep you in the zone for long programming sessions.
 
-[X] JavaScript
+<p align="center">
+  <img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/full.png" alt="Zenburn" />
+</p>
 
-[X] JSX
+### No:
 
-[X] Markdown
+  - dayglo vomit
+  - black, red, blue and green on screaming white background
+  - headache
+  - watery, squinting eyes
+  - the "I wanna run away" feeling
 
-[X] SCSS
+### Yes:
 
-[X] CSS
+  + alien fruit salad
+  + harmonious colors help with concentration
+  + improved focus
+  + stay longer in the zone
+  + more productivity
+  + looks good
+  + etc.
 
-[X] C
+### INSTALLATION
 
-[X] HTML
+### LICENSE
 
-[X] C++
+GNU GPL, http://www.gnu.org/licenses/gpl.html
 
-[X] Python
+### AUTHORS
 
-[X] TypeScript
+The original [Zenburn for Vim](https://github.com/jnurmine/Zenburn/) was created by Jani Nurminen.
 
-[X] PHP
-
-[X] OCaml
-
-[X] Haskell
-
-[X] F#
-
-[X] C#
-
-[X] Go
-
-[X] Rust
-
-[X] Clojure
-
-[X] Elm
-
-[X] Elixir
-
-[X] JSON
-
-[X] Java
-
-
-X = Full support
-
-~ = Mostly supported
+This port was created by Ryan Olson. It's been tested with the following languages: JavaScript, JSX, Markdown, SCSS, CSS, C, HTML, C++, Python, TypeScript, PHP, OCaml, Haskell, F#, C#, Go, Rust, Clojure, Elm, Elixir, JSON, and Java.
