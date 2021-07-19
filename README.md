@@ -26,6 +26,21 @@ Zenburn is a low-contrast color scheme for Sublime Text. It’s easy for your ey
 
 ### INSTALLATION
 
+To install this, either:
+
+#### Install via Git
+
+Navigate to your Sublime Text user folder (Mac OSX path shown below) and clone the repository.
+
+```bash
+cd ~/Library/Application\ Support/Sublime\ Text/Packages/User
+git clone https://github.com/ryanolsonx/sublimetext-zenburn-theme.git
+```
+
+#### Install using Package Control
+
+Install package control in your Sublime Text and then install "Zenburn Color Scheme".
+
 ### LICENSE
 
 GNU GPL, http://www.gnu.org/licenses/gpl.html
