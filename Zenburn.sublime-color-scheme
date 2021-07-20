@@ -5,6 +5,8 @@
     {
     	"bg": "#3f3f3f",
     	"fg": "#dedede",
+        "white": "#ffffff",
+        "gallery": "#efefef",
         "parchment": "#f0efd0",
         "tan": "#dfdfbf",
         "gray": "#8f8f8f",
@@ -35,7 +37,7 @@
         "foreground": "var(fg)",
         "background": "var(bg)",
         "accent": "var(monte_carlo)",
-        "caret": "var(monte_carlo)", // TODO: maybe change to something else
+        "caret": "var(monte_carlo)",
         "line_highlight": "#262626",
         "selection": "#2f2f2f",
         "selection_border": "#2f2f2f",
@@ -125,18 +127,18 @@
         },
         {
             "name": "Operator",
-            "scope": "punctuation.definition, punctuation.section, punctuation.separator, punctuation.terminator - punctuation.definition.numeric.base, keyword.operator",
+            "scope": "punctuation.definition, punctuation.section, punctuation.separator, punctuation.terminator - punctuation.definition.numeric.base - keyword.operator",
             "foreground": "var(parchment)"
         },
         {
             "name": "Keyword",
-            "scope": "keyword, constant.other.keyword.clojure - (keyword.operator | keyword.operator.word)",
+            "scope": "keyword, constant.other.keyword.clojure - keyword.operator - keyword.operator.word - keyword.control.flow.return.js - keyword.operator.logical",
             "foreground": "var(pale_goldenrod)",
             "font_style": "bold"
         },
         {
             "name": "Statement",
-            "scope": "entity.name.tag, punctuation.definition.list_item, source.shell.bash support.function, keyword.control.flow.return.js, keyword.declaration.function.python, keyword.control.flow.assert.python, keyword.operator.new.cs - (keyword.control.import-export)", // keyword.control
+            "scope": "entity.name.tag, punctuation.definition.list_item, source.shell.bash support.function, keyword.control.flow.return.js, keyword.declaration.function.python, keyword.control.flow.assert.python, keyword.operator.new.cs - keyword.control.import-export",
             "foreground": "var(hampton)"
         },
         {
@@ -182,7 +184,7 @@
         },
         {
             "name": "StorageClass",
-            "scope": "storage.modifier, support.type.property-name, abstract.definition.fsharp keyword.fsharp",
+            "scope": "storage.modifier, support.type.property-name, abstract.definition.fsharp keyword.fsharp, keyword.declaration",
             "foreground": "var(reef)",
             "font_style": "bold"
         },
@@ -211,8 +213,16 @@
         {
             "name": "Title",
             "scope": "entity.name.section.markdown",
-            "foreground": "#efefef",
+            "foreground": "var(gallery)",
             "font_style": "bold"
+        },
+
+        // Overrides for things that aren't working well.
+        {
+            "name": "Overrides",
+            "scope": "keyword.operator.logical",
+            "foreground": "var(fg)",
+            "font_style": "none"
         },
 
 
@@ -224,13 +234,13 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "foreground": "#fff",
+            "foreground": "var(white)",
             "background": "var(oriental_pink)"
         },
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "#fff",
+            "foreground": "var(white)",
             "background": "var(calico)"
         },
         {
