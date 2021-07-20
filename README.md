@@ -53,21 +53,21 @@ This port was created by Ryan Olson. It's been tested with the following languag
 
 ### SCREENSHOTS
 
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/jsx.png" alt="jsx" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/scss.png" alt="scss" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/css.png" alt="css" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/html.png" alt="html" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/php.png" alt="php" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/golang.png" alt="golang" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/clojure.png" alt="clojure" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/typescript.png" alt="typescript" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/c.png" alt="c" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/cpp.png" alt="cpp" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/elixir.png" alt="elixir" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/elm.png" alt="elm" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/fsharp.png" alt="fsharp" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/haskell.png" alt="haskell" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/java.png" alt="java" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/ocaml.png" alt="ocaml" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/python.png" alt="python" />
-<img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/rust.png" alt="rust" />
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/jsx.png" alt="jsx" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/scss.png" alt="scss" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/css.png" alt="css" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/html.png" alt="html" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/php.png" alt="php" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/golang.png" alt="golang" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/clojure.png" alt="clojure" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/typescript.png" alt="typescript" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/c.png" alt="c" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/cpp.png" alt="cpp" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/elixir.png" alt="elixir" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/elm.png" alt="elm" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/fsharp.png" alt="fsharp" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/haskell.png" alt="haskell" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/java.png" alt="java" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/ocaml.png" alt="ocaml" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/python.png" alt="python" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/rust.png" alt="rust" /></p>
