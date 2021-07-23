@@ -49,7 +49,7 @@ GNU GPL, http://www.gnu.org/licenses/gpl.html
 
 The original [Zenburn for Vim](https://github.com/jnurmine/Zenburn/) was created by Jani Nurminen.
 
-This port was created by Ryan Olson. It's been tested with the following languages: JavaScript, JSX, Markdown, SCSS, CSS, C, HTML, C++, Python, TypeScript, PHP, OCaml, Haskell, F#, C#, Go, Rust, Clojure, Elm, Elixir, JSON, and Java.
+This port was created by Ryan Olson. It's been tested with the following languages: JavaScript, JSX, Markdown, SCSS, CSS, C, HTML, C++, Python, TypeScript, PHP, OCaml, Haskell, F#, C#, Go, Rust, Clojure, Elm, Elixir, JSON, Ruby, SQL, and Java.
 
 ### SCREENSHOTS
 
@@ -71,3 +71,5 @@ This port was created by Ryan Olson. It's been tested with the following languag
 <p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/ocaml.png" alt="ocaml" /></p>
 <p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/python.png" alt="python" /></p>
 <p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/rust.png" alt="rust" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/ruby.png" alt="ruby" /></p>
+<p align="center"><img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/sql.png" alt="SQL" /></p>
