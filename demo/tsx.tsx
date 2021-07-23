@@ -1,44 +1,29 @@
-import { Component, OnInit, OnDestroy } from '@angular/core'
-import { Person, SearchService } from '../shared'
-import { ActivatedRoute } from '@angular/router'
-import { Subscription } from 'rxjs'
+import React from 'react'
+import calculate from '../logic/calculate'
+import './App.css'
+import ButtonPanel from './ButtonPanel'
+import Display from './Display'
 
-@Component({
-  selector: 'app-search',
-  templateUrl: './search.component.html',
-  styleUrls: ['./search.component.css']
-})
-export class SearchComponent implements OnInit, OnDestroy {
-  query: string
-  searchResults: Array<Person>
-  sub: Subscription
-
-  constructor(
-    private searchService: SearchService,
-    private route: ActivatedRoute
-  ) {}
-
-  ngOnInit() {
-    this.sub = this.route.params.subscribe(params => {
-      if (params['term']) {
-        this.query = decodeURIComponent(params['term'])
-        this.search()
-      }
-    })
-  }
-
-  search(): void {
-    this.searchService.search(this.query).subscribe(
-      (data: any) => {
-        this.searchResults = data
-      },
-      error => console.log(error)
-    )
-  }
-
-  ngOnDestroy() {
-    if (this.sub) {
-      this.sub.unsubscribe()
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      total: null
     }
   }
+
+  handleClick = buttonName => {
+    this.setState(calculate(this.state, buttonName))
+  }
+
+  render() {
+    return (
+      <div className="component-app">
+        Tacos
+        <Display value={this.state.next || this.state.total || '0'} />
+        <ButtonPanel clickHandler={this.handleClick} />
+      </div>
+    )
+  }
 }
+export default App

@@ -1,0 +1,124 @@
+@import './common.module.scss';
+
+.backButton {
+  position: absolute;
+  z-index: 3;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.node::after {
+  height: 100% !important;
+  border-radius: 80px;
+  background: #eee;
+  color: #000;
+
+  &_level1 {
+    background: #2f96e4;
+  }
+
+  &_level2 {
+    color: #2f96e4;
+  }
+
+  &_level3 {
+    background: #37bdf8;
+    color: #fff;
+  }
+
+  &_level4 {
+    background: #237caf;
+    color: #fff;
+  }
+
+  &_level5 {
+    background: #def3ff;
+    color: #000;
+  }
+
+  &_level6 {
+    background: #606d85;
+    color: #fff;
+  }
+
+  &_level7 {
+    background: #a0e1fe;
+    color: #000;
+  }
+
+  &__content {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__name {
+    font-size: 34px; // Make sure this syncs up with OrgChart.getWidthForText
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__fields {
+    width: 100%;
+    padding-left: 5px;
+    font-size: 24px; // Make sure this syncs up with OrgChart.getWidthForText
+  }
+
+  &__field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+
+    &_noIcon {
+      padding-left: 30px;
+    }
+  }
+
+  &__fieldIcon {
+    margin-right: 4px;
+  }
+}
+
+.whiteFab {
+  background-color: white !important;
+  color: var(--mdc-theme-primary) !important;
+}
+
+.emptyState {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 24px;
+  }
+
+  &__logo {
+    width: 166px;
+    height: 145px;
+  }
+}
+
+.colorWhite {
+  color: #fff;
+}
