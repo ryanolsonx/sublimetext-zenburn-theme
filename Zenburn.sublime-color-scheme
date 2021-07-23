@@ -208,7 +208,7 @@
         },
         {
             "name": "Delimiter",
-            "scope": "markup.heading punctuation.definition.heading, punctuation.definition.raw.begin, punctuation.definition.raw.end",
+            "scope": "markup.heading punctuation.definition.heading, punctuation.definition.raw.begin, punctuation.definition.raw.end, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php",
             "foreground": "var(gray)"
         },
         {
