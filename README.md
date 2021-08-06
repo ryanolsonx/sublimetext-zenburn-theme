@@ -1,4 +1,4 @@
-#Zenburn
+# Zenburn
 
 Zenburn is a low-contrast color scheme created by Jani Nurminen. It’s easy for your eyes and designed to keep you in the zone for long programming sessions.
 
