@@ -1,4 +1,4 @@
-# Zenburn
+#Zenburn
 
 Zenburn is a low-contrast color scheme created by Jani Nurminen. It’s easy for your eyes and designed to keep you in the zone for long programming sessions.
 
@@ -8,9 +8,7 @@ This color scheme is created for Sublime Text.
 
 To install it, look for "Zenburn Color Scheme" in [Package Control](https://packagecontrol.io/packages/Zenburn%20Color%20Scheme).
 
-<p align="center">
-  <img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/Zenburn.png" alt="Zenburn Screenshot" />
-</p>
+![](https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/Zenburn.png)
 
 ## Philosophy
 
