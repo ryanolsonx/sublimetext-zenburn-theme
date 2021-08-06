@@ -9,7 +9,7 @@ This color scheme is created for Sublime Text.
 To install it, look for "Zenburn Color Scheme" in [Package Control](https://packagecontrol.io/packages/Zenburn%20Color%20Scheme).
 
 <p align="center">
-  <img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/screenshots/Zenburn.png" alt="Zenburn Screenshot" />
+  <img src="https://github.com/ryanolsonx/sublimetext-zenburn-theme/raw/master/Zenburn.png" alt="Zenburn Screenshot" />
 </p>
 
 ## Philosophy
