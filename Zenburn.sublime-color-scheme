@@ -304,25 +304,80 @@
         {
             "scope": "message.error",
             "foreground": "var(oriental_pink)"
+        },
+
+        // Support for [x]it! https://xit.jotaen.net/
+        {
+         "scope": "markup.other.title.xit",
+         "foreground": "#ffffff",
+         "font_style": "underline bold"
+        },
+
+        // Priority
+        {
+         "scope": "markup.other.priority.exclamation.xit",
+         "foreground": "var(coral)",
+         "font_style": "bold"
+        },
+        {
+         "scope": "meta.item.status.obsolete.xit markup.other.priority.exclamation.xit",
+         "foreground": "color(var(coral) alpha(0.35))"
+        },
+        {
+         "scope": "meta.item.status.checked.xit markup.other.priority.exclamation.xit",
+         "foreground": "color(var(coral) alpha(0.35))"
+        },
+        {
+         "scope": "markup.other.priority.dot.xit",
+         "foreground": "color(var(coral) alpha(0.3))"
+        },
+
+        // Checkboxes / Desciption
+        {
+         "scope": "markup.other.checkbox.open.xit",
+         // "foreground": "var(tan)",
+         "font_style": "bold"
+        },
+        {
+         "scope": "meta.item.status.open.xit markup.other.description.xit",
+         "foreground": "var(fg)"
+        },
+        {
+         "scope": "markup.other.checkbox.checked.xit",
+         "foreground": "var(envy)",
+         "font_style": "bold"
+        },
+        {
+         "scope": "meta.item.status.checked.xit markup.other.description.xit",
+         "foreground": "color(var(fg) alpha(0.5))",
+        },
+        {
+         "scope": "markup.other.checkbox.ongoing.xit",
+         "foreground": "var(monte_carlo)",
+         "font_style": "bold"
+        },
+        {
+         "scope": "meta.item.status.ongoing.xit markup.other.description.xit",
+         "foreground": "color(var(fg) alpha(1.0))"
+        },
+        {
+         "scope": "markup.other.checkbox.obsolete.xit",
+         "foreground": "color(var(fg) alpha(0.2))",
+         "font_style": "bold"
+        },
+        {
+         "scope": "meta.item.status.obsolete.xit markup.other.description.xit",
+         "foreground": "color(var(fg) alpha(0.2))"
+        },
+        // Tags
+        {
+         "scope": "markup.other.tag.name.xit",
+         "foreground": "var(champagne)",
+        },
+        {
+         "scope": "markup.other.tag.value.xit",
+         "font_style": "italic",
+         "foreground": "var(champagne)",
         }
-        // {
-        //     "scope": "diff.deleted",
-        //     "foreground": "var(stark)",
-        // },
-        // {
-        //     "scope": "diff.deleted.char",
-        //     "background": "var(coral)",
-        //     "foreground": "#000",
-        // },
-        // {
-        //     "scope": "diff.inserted",
-        //     "background": "var(viridian)",
-        //     "foreground_adjust": "l(+ 20%)"
-        // },
-        // {
-        //     "scope": "diff.inserted.char",
-        //     "background": "var(khaki)",
-        //     "foreground": "#000"
-        // },
     ]
 }
